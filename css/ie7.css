@@ -1,0 +1,25 @@
+/*
+IE7 Fixes?
+================================================== */
+#home-slider{
+	display: none;
+}
+#post-entries{
+	width: 900px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* IE6 */
+* html .clearfix {
+  height: 1%;
+}
+/* IE7 */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
